@@ -13,5 +13,5 @@ $itemsQuery = $pdo->prepare(
   "UPDATE portfolio_items SET title = '$title', body = '$body' WHERE id = $id;"
 );
 $itemsQuery->execute();
-//print_r($itemsQuery);
+
 header("Location: /portfolio_item.php?id=" . $id);
