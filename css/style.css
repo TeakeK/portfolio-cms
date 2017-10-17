@@ -1,0 +1,188 @@
+*, *::after, *::before { -webkit-box-sizing: border-box; box-sizing: border-box; }
+* {
+	margin: 0;
+	padding:0;
+}
+html, body {
+	font-family: 'Roboto', sans-serif;
+	font-size:16px;
+	color: #2b2a2f;
+	background: #ffffff;
+	min-height: 100%;
+	height: 100%;
+}
+h1 {
+	font-size: 60px;
+}
+ span, p, a {
+	line-height:25px;
+}
+section.navigation {
+	min-height: 100%;
+	width: 115px;
+	position: fixed;
+	display: inline-block;
+}
+
+section.navigation .logo {
+	background: url('../img/logo.png') no-repeat center center;
+	height: 140px;
+	width: 115px;
+	position: relative;
+}
+section.navigation nav {
+	-ms-transform: rotate(-90deg);
+	-webkit-transform: rotate(-90deg);
+	transform: rotate(-90deg);
+	transform-origin: 50% 50%;
+	margin-left: 30px;
+	display: inline-block;
+	position: inherit;
+	top: 55%;
+}
+section.navigation nav a {
+	text-decoration: none;
+	color: #2b2a2f;
+	padding-bottom: 1px;
+	border-bottom: 2px solid #003cff;
+}
+
+section.thumbnail {
+	width: 1170px;
+	display: inline-block;
+	height: 100%;
+	margin-left: 115px;
+}
+
+section.slider {
+	position: fixed;
+	right: 5%;
+}
+
+section.slider ul li {
+	list-style-type: none;
+}
+
+footer {
+	position: fixed;
+	bottom: 6%;
+	left:10%;
+	font-size:12px;
+}
+/*About page styling*/
+body.about-bg {
+	background: url('../img/about-bg.png') no-repeat bottom right!important;
+
+}
+section.about-me {
+	width: 100%;
+	display: inline-block;
+	height: 100%;
+}
+section.about-me img {
+	float: right;
+	position: relative;
+	top: 50%;
+	margin-top: -321px;
+	right: 8%;
+}
+section.about-me .about-me-container {
+	max-width: 43%;
+	margin-left: 12%;
+	margin-top: 200px;
+}
+section.about-me h1, p {
+	display:inline-block;
+	margin-bottom:40px;
+	font-size:2vh;
+}
+section.about-me h1 {
+	margin-bottom:65px!important;
+	font-size: 10vh;
+}
+section.about-me a {
+	margin-right: 20px;
+	text-decoration: none;
+	color:inherit;
+	border-bottom: 2px solid #003cff;
+	padding-bottom:2px;
+}
+section.about-me span {
+	display: block;
+	position: fixed;
+	bottom: 10%;
+}
+body.about-bg footer{
+	border-bottom: 2px solid #003cff;
+	padding-bottom:2px;
+}
+/*About me END*/
+
+/*Portfolio item*/
+section.portfolio-item {
+	max-width: 1170px;
+	width:100%;
+	margin:0 auto;
+	padding-top: 10%;
+	margin-bottom:10%;
+}
+section.portfolio-item div{
+	display: inline-block;
+	float:left;
+	margin-left:100px;
+}
+section.portfolio-item h1{
+	float:left;
+}
+section.portfolio-item div p{
+	font-size: 16px;
+}
+section.portfolio-item div span{
+	font-size: 12px;
+}
+section.portfolio-item .item-info-wrapper {
+	float: right;
+	padding-top:11px;
+}
+section.portfolio-item img {
+	width:100%;
+	margin-top:10%;
+}
+div.container-portfolio {
+	margin-left:115px;
+}
+a.back-button {
+	width: 65px;
+	display: inline-block;
+	border-bottom: 2px solid #003cff;
+	padding-bottom: 2px;
+	text-decoration: none;
+	color: inherit;
+	float: right;
+	text-align: right;
+	margin-top:-100px;
+	background: url('../img/left-arrow.png') no-repeat left 11px;
+}
+
+/*Portfolio item END*/
+
+/*Decolines styles*/
+.decolines {
+	pointer-events: none;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	pointer-events: none;
+}
+
+.decolines--fixed {
+	position: fixed;
+	/*width: 100vw;*/
+	height: 100vh;
+}
+
+.decoline {
+	position: absolute;
+}
